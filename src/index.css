@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body {
+  background-image: url('/public/black-3.png');
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+} */
+/* index.css */
+.page-enter {
+  @apply opacity-0 transform -translate-x-full;
+}
+.page-enter-active {
+  @apply opacity-100 transform translate-x-0 transition duration-300 ease-in-out;
+}
+.page-exit {
+  @apply opacity-100 transform translate-x-0;
+}
+.page-exit-active {
+  @apply opacity-0 transform translate-x-full transition duration-300 ease-in-out;
+}
+
+
